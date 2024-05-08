@@ -1,0 +1,27 @@
+{
+    "authors": ["Abhishek Kumar", "Chen Chen", "Aakash Singh", "Alex Oh"],
+    "copyright": "Copyright © 2023, Abhishek Kumar, Chen Chen, Aakash Singh, Alex Oh",
+    "dependencies": {
+        "bindbc-sdl": "~>1.2.4",
+        "gtk-d": "~>3.10.0"
+    },
+    "versions": ["SDL_Mixer"],
+    "configurations": [
+        { "name": "executable" },
+        {
+            "name": "unittest",
+            "preBuildCommands": [
+                "dub run unit-threaded -c gen_ut_main -- -f bin/ut.d -d dub"
+            ],
+            "mainSourceFile": "bin/ut.d",
+            "excludedSourceFiles": ["source/app.d"],
+            "dependencies": {
+                "unit-threaded": "~>2.1.7"
+            }
+        }
+    ],
+    "targetType": "executable",
+    "description": "A client application for Team United's gather town",
+    "license": "proprietary",
+    "name": "client"
+}

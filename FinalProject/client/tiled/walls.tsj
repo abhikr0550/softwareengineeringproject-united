@@ -1,0 +1,14 @@
+{ "columns":64,
+ "image":"..\/assets\/images\/tiles\/lpc-walls\/other\/walls.png",
+ "imageheight":3072,
+ "imagewidth":2048,
+ "margin":0,
+ "name":"walls",
+ "spacing":0,
+ "tilecount":6144,
+ "tiledversion":"1.10.2",
+ "tileheight":32,
+ "tilewidth":32,
+ "type":"tileset",
+ "version":"1.10"
+}

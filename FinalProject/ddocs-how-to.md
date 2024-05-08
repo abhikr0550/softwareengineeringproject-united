@@ -1,0 +1,1 @@
+To generate documentation, run `dub run adrdox -- -i ./client/source ./server/source` inside the **FinalProject** folder.

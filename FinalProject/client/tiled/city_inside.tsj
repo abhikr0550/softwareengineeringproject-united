@@ -1,0 +1,14 @@
+{ "columns":24,
+ "image":"..\/assets\/images\/tiles\/LPC_city_inside\/other\/city_inside.png",
+ "imageheight":512,
+ "imagewidth":768,
+ "margin":0,
+ "name":"city_inside",
+ "spacing":0,
+ "tilecount":384,
+ "tiledversion":"1.10.2",
+ "tileheight":32,
+ "tilewidth":32,
+ "type":"tileset",
+ "version":"1.10"
+}
